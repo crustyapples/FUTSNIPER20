@@ -6,11 +6,11 @@ import time
 driver = webdriver.Chrome()
 driver.get('https://www.easports.com/fifa/ultimate-team/web-app/')
 
-print('Only Key In the following after transfer page screen is loaded,do not press the final search button!')
+print('Only Key In the following after transfer page screen is loaded, DO NOT press the final search button!')
 time.sleep(0.5)
 refreshCount = input('How many times do you want to refresh?(more refreshes = longer) : ')
 time.sleep(0.5)
-Lagtime = input('How fast do you want the refreshes to be, note:if too fast screen will not load,recommended 0.5s: ') 
+Lagtime = input('How fast do you want the refreshes to be, note: if too fast the screen will not load, we recommend 0.5s: ') 
 
 
 
